@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  .subheading-1 {
+    font-family: theme("fontFamily.headerPrimary");
+  }
+  h5,
+  .subheading-2,
+  .navText {
+    font-family: theme("fontFamily.headerSecondary");
+  }
+  h1 {
+    font-size: 9.375rem;
+  }
+  h2 {
+    font-size: 6.25rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.75rem;
+  }
+  .subheading-1 {
+    font-size: 1.75rem;
+  }
+  .subheading-2 {
+    font-size: 0.875rem;
+  }
+  .navText {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+}
